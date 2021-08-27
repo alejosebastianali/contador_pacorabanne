@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+}
+
+.countdown {
+	overflow: hidden;
+	display: flex;
+	position: relative;
+}
+
+.container {
+	width: 950px;
+	height: 300px;
+	align-items: center;
+	background-image: url(./img/fondo.jpg);
+	background-repeat: no-repeat;
+	color: white;
+	display: flex;
+	font-family: 'Lato', sans-serif;
+}
+
+.counter-list {
+	display: flex;
+	list-style: none;
+	margin: auto;
+	width: 50%;
+	padding: 0;
+	padding-top: 38px;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 75px;
+	font-weight: 900;
+	letter-spacing: 25px;
+}
+
+#days {
+	font-family: 'Bebas Neue', cursive;
+	display: flex;
+	padding-left: 15px;
+}
+
+#hours {
+	font-family: 'Bebas Neue', cursive;
+	display: flex;
+	padding-left: 10px;
+}
+
+#minutes {
+	font-family: 'Bebas Neue', cursive;
+	display: flex;
+	padding-left: 9px;
+}
+
+#seconds {
+	font-family: 'Bebas Neue', cursive;
+	display: flex;
+	padding-left: 9px;
+}
