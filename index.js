@@ -26,7 +26,7 @@ function splitTime(time, element){
 	}
 }
 
-let countDown = new Date('Sep 1, 2021 18:00:00').getTime(),
+let countDown = new Date('May 25, 2023 18:00:00').getTime(),
 	x = setInterval(function () {
 		let now = new Date().getTime(),
 			distance = countDown - now
